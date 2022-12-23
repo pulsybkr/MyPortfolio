@@ -9,22 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@barba/core": "^2.9.7",
+    "@builder.io/partytown": "^0.7.3",
     "@next/font": "13.0.7",
     "@react-three/fiber": "^8.9.1",
     "@types/node": "18.11.17",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.9",
+    "aos": "^3.0.0-beta.6",
     "eslint": "8.30.0",
     "eslint-config-next": "13.0.7",
     "gsap": "^3.11.4",
     "next": "13.0.7",
+    "ng-particles": "^3.7.0",
     "pushin": "^5.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-particles": "^2.7.0",
+    "react-particles-js": "^3.6.0",
     "three": "^0.147.0",
+    "tsparticles-engine": "^2.7.0",
+    "tsparticles-plugin-polygon-mask": "^2.7.0",
     "typescript": "4.9.4"
   },
   "devDependencies": {
-    "@types/three": "^0.146.0"
+    "@types/aos": "^3.0.4",
+    "@types/three": "^0.146.0",
+    "particles.js": "^2.0.0",
+    "tsparticles": "^2.7.0"
   }
 }
