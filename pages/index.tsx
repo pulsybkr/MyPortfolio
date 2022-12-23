@@ -9,13 +9,15 @@ import 'aos/dist/aos.css';
 
 
 export default function Home() {
-  AOS.init();
   const [hoverMenu, setHoverMenu] = useState(true);
   const [clickMenu, setClickMenu] = useState(true);
 
   const [hoverclose, setHoverclose] = useState(true);
 
   const [scroll, setScroll] = useState(42);
+  const [scrolltitle, setScrolltitle] = useState(1);
+  const [scaletitle, setScaletitle] = useState(1);
+
   const [scrollrotate, setScrollrotate] = useState(0);
 
   useEffect(() => {
@@ -23,8 +25,11 @@ export default function Home() {
       // console.log(e.path[1].scrollY)
       let axeY = e.path[1].scrollY
       axeY = axeY / 500
+      let scale = axeY / 650
 
-      console.log(axeY)
+      console.log(1 - scale)
+      setScaletitle(1 - scale)
+      setScrolltitle(1 - axeY)
       setScrollrotate(axeY)
       setScroll(scroll - axeY)
     });  
@@ -86,7 +91,7 @@ export default function Home() {
           </div>
         </header>
         <section className={styles.title}>
-          <div className={styles.title1}>
+          <div className={styles.title1} style={{opacity: `${scrolltitle}`, scale: `${scaletitle}`}}>
             <div>
               <h1>Pulsy BACKEKOLO</h1>
               <h2>Developpeur Web Front - End </h2>

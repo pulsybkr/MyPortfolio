@@ -146,6 +146,7 @@
 
 .title1{
   position: fixed;
+  transition: all 0.2s;
 }
 
 .title1 h1{
