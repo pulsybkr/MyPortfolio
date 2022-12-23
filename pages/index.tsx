@@ -25,7 +25,7 @@ export default function Home() {
       // console.log(e.path[1].scrollY)
       let axeY = e.path[1].scrollY
       axeY = axeY / 500
-      let scale = axeY / 650
+      let scale = e.path[1].scrollY / 1000
 
       console.log(1 - scale)
       setScaletitle(1 - scale)
