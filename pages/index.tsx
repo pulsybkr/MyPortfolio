@@ -10,7 +10,7 @@ export default function Home() {
   const [scrollrotate, setScrollrotate] = useState(0);
 
   useEffect(() => {
-    window.addEventListener("scroll", (e)=>{
+    window.addEventListener("scroll", (e: any)=>{
       // console.log(e.path[1].scrollY)
       let axeY = e.path[1].scrollY
       axeY = axeY / 500
@@ -19,24 +19,12 @@ export default function Home() {
       setScrollrotate(axeY)
       setScroll(scroll - axeY)
     });  
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
  
   // console.log(scroll)
-
-  const boxRef = useRef();
-
-useLayoutEffect(() => {
-  // Refs allow you to access DOM nodes
-  console.log(boxRef) // { current: div.box }
-  // then we can animate them like so...
-  gsap.to(boxRef.current, {
-    rotation: "+=360"
-  });
-});
   return (
    <>
-   
-   
   <div className={styles.scene}>
       <Canvas
         shadows={true}
@@ -54,11 +42,9 @@ useLayoutEffect(() => {
 
       </Canvas>
       <div className={styles.page}>
-        <h1 className="box">Hello</h1>
       </div>
 
-  </div>
-    
+  </div>    
    
    </>
   );

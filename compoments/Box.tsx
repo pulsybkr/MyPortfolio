@@ -1,6 +1,6 @@
 import React from "react";
 
-function Box(props) {
+function Box(props:any) {
   return (
     <mesh {...props} recieveShadow={true} castShadow={true}>
       <sphereGeometry/>
