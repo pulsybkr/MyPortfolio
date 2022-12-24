@@ -26,7 +26,6 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-particles": "^2.7.0",
-    "react-particles-js": "^3.6.0",
     "three": "^0.147.0",
     "tsparticles-engine": "^2.7.0",
     "tsparticles-plugin-polygon-mask": "^2.7.0",
