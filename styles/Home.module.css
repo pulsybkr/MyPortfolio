@@ -2,7 +2,8 @@
 /* font-family: 'Unbounded', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;400;500&family=Irish+Grover&family=Unbounded:wght@200;400;500;600;800;900&display=swap');
 
-/* font-family: 'Hanken Grotesk', sans-serif; */
+/* font-family: 'Hanken Grotesk', sans-serif; ......................*/
+
 .scene{
   width:100vw;
   height:auto;
@@ -19,9 +20,9 @@
 
 .page{
   position: relative;
-  height: 10000px;
   padding: 0 20px;
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -35,6 +36,7 @@
   padding: 25px 50px 0 25px;
   display: flex;
   justify-content: space-between;
+  z-index: 2000;
 }
 
 .page header .logo{
@@ -136,54 +138,59 @@
 
 }
 
-/* titre ...................................................*/
+/* .title ........................................ */
 .title{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   height: 100vh;
-  /* z-index: 0; */
 }
 
-.title1{
-  position: absolute;
-  transition: all 0.2s;
-  z-index: 1 !important;
+.title div{
+  perspective: 1000px;
 }
 
-.title1 h1{
-  font-family: 'Unbounded', cursive;
-  margin-bottom: 10px;
-  font-size: 3.2rem;
-  color: #1d2530;
+.title h2 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-family: 'Unbounded', cursive; 
+  font-weight: 700;
+  text-align: center;
+  line-height: 0.9;
+  transform: rotateX(4deg) rotateZ(356deg);
+  transform-style: preserve-3d;
 }
 
-.title1 h3{
-  margin-top: 90px;
+/*  aboutme ..........................................*/
+.aboutme{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 250px 150px;
+  margin-bottom: 250px;
 }
 
-.title1 h3 a{
-  color: #1d2530;
-  position: relative;
+.aboutme img{
+  border-radius: 20px;
+  margin-bottom: 250px;
+  transform: rotateX(4deg) rotateZ(356deg);
+  transform-style: preserve-3d;
 }
 
-.title1 h3 a::after{
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 5px;
-  top: 50%;
-  left: 0;
-  background-color: #e85549;
-  opacity: 0.5;
-  transition: width 0.4s;
+.aboutme div{
+  perspective: 1000px;
 }
 
-.title1 h3 strong{
-  color: #e85549;
+.aboutme h2{
+  text-align: justify;
+  text-transform: uppercase;
+  font-size: 2.4rem;
 }
 
-.title1 h3 a:hover::after{
-  width: 100%;
+.aboutme h3{
+  text-align: justify;
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  margin-top: 50px;
 }
+
