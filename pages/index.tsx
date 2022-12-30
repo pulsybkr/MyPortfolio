@@ -26,10 +26,8 @@ export default function Home() {
     console.log(scroll);
 
      // scroll horizontall
-     const scrolle = document.querySelector('#scroll')
-      
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-  // console.log(scroll)
 
   return (
    <>

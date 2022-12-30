@@ -40,6 +40,7 @@
     "@types/gsap": "^3.0.0",
     "@types/locomotive-scroll": "^4.1.0",
     "@types/three": "^0.146.0",
+    "eslint": "^8.30.0",
     "tsparticles": "^2.7.0"
   }
 }
