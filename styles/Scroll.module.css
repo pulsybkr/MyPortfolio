@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Unbounded:wght@200;400;500;600;800;900&display=swap');
+/* font-family: 'Unbounded', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;400;500&family=Irish+Grover&family=Unbounded:wght@200;400;500;600;800;900&display=swap');
+
+/* font-family: 'Hanken Grotesk', sans-serif; ......................*/
+
+/* ................................ */
+.scrollee{
+  width: 100%;
+  height: auto;
+  margin-bottom: 250px;
+}
+.scrollee1{
+  /* background: #e85549; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.scrollee1 h1{
+  font-size: 5rem;
+  font-family: 'Unbounded', cursive;
+  text-transform: uppercase; 
+  line-height: 0.9em; 
+}
+
+.scrollee1 h1:nth-child(1){
+  transform: rotateX(4deg) rotateZ(356deg) rotateY(-46deg);
+  animation: scroll1 2s linear infinite;
+}
+
+.scrollee1 h1:nth-child(2){
+  transform: rotateX(4deg) rotateZ(356deg) rotateY(-56deg);
+  animation: scroll2 2s linear infinite;
+}
+
+.scrollee1 h1:nth-child(3){
+  transform: rotateX(4deg) rotateZ(356deg) rotateY(56deg);
+  animation: scroll3 2s linear infinite;
+
+}
+
+@keyframes scroll1{
+  0%{
+  transform: rotateX(4deg) rotateZ(356deg) rotateY(-46deg);
+
+  }50%{
+  transform: rotateX(4deg) rotateZ(356deg) rotateY(-66deg);
+    
+  }100%{
+    transform: rotateX(4deg) rotateZ(356deg) rotateY(-46deg);
+  
+    }
+}
+
+@keyframes scroll2{
+  0%{
+  transform: rotateX(4deg) rotateZ(356deg) rotateY(-56deg);
+
+  }50%{
+  transform: rotateX(4deg) rotateZ(356deg) rotateY(-36deg);
+    
+  }100%{
+    transform: rotateX(4deg) rotateZ(356deg) rotateY(-56deg);
+  
+    }
+}
+
+@keyframes scroll3{
+  0%{
+  transform: rotateX(4deg) rotateZ(356deg) rotateY(46deg);
+
+  }50%{
+  transform: rotateX(4deg) rotateZ(356deg) rotateY(66deg);
+    
+  }100%{
+    transform: rotateX(4deg) rotateZ(356deg) rotateY(46deg);
+  
+    }
+}
+
+/* ...........design......... */
+.scrollee2{
+  /* background-color: #2b0b08; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50vh;
+}
+
+.scrollee2 .title{
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  height: 100vh;
+  /* margin-right: 200px; */
+}
+
+.scrollee2 .title h2{
+  width: 350px;
+  position: relative;
+  margin-right: -100px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  z-index: 10;
+  filter: drop-shadow(10px 10px 20px rgb(92, 180, 177)) invert(5%);
+}
+
+.scrollee2 .title video{
+  border-radius: 30px;
+  opacity: 0.8;
+  filter: drop-shadow(6px 6px 10px red) invert(90%);
+  z-index: 1;
+  width: 500px;
+}
+
+.scrollee2 .image{
+  margin-top: -50px;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  position: relative;
+  height: 350px;
+  overflow-y: hidden;
+  justify-content: space-around;
+}
+
+.scrollee2 .image img:nth-child(1) {
+  width: 250px;
+  height: auto;
+  z-index: 2;
+}
+
+.scrollee2 .image img:nth-child(2) {
+  width: 450px;
+  height: auto;
+  position: relative;
+  border: 0.2px solid white;
+  z-index: 1;
+}
+
+.scrollee2 .image img:nth-child(3) {
+  width: 300px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.scrollee2 .image img:nth-child(4) {
+  width: 300px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* scroll 3 */
+
+.scrollee3{
+  width: 200vw;
+  height: 100%;
+  display: flex;
+}
