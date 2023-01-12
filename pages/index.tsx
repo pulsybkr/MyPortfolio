@@ -26,8 +26,10 @@ export default function Home() {
     console.log(scroll);
 
      // scroll horizontall
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+     const scrolle = document.querySelector('#scroll')
+      
   }, [])
+  // console.log(scroll)
 
   return (
    <>
@@ -61,7 +63,8 @@ export default function Home() {
             </h3>
           </div>
       </section> 
-      <MyComponent />
+      <MyComponent 
+      />
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatem eum praesentium et a. Soluta iure error autem. Labore minus ab quae distinctio laboriosam quaerat quisquam pariatur itaque voluptatem sapiente.
         Sint qui aliquam cupiditate dolor aliquid. Magnam, quidem dolorem atque odio ipsam rem at iste optio sint consequatur perspiciatis harum tempore dolor amet veniam, dolorum vel a facilis beatae enim.

@@ -6,16 +6,14 @@
 
 /* ................................ */
 .scrollee{
-  /* width: 100vw; */
-  height: 90vh;
-  margin-left: 100px;
+  width: 100%;
+  height: auto;
   margin-bottom: 250px;
-  overflow-x: hidden;
 }
 .scrollee1{
   /* background: #e85549; */
-  width: 100vw;
-  height: 100%;
+  width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,23 +85,28 @@
 /* ...........design......... */
 .scrollee2{
   /* background-color: #2b0b08; */
-  width: 200vw;
-  height: 100%;
+  width: 100%;
+  height: auto;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50vh;
 }
 
 .scrollee2 .title{
   display: flex;
   align-items: center;
   position: relative;
-  width: 1000px;
-  margin-right: 200px;
+  width: 100%;
+  justify-content: center;
+  height: 100vh;
+  /* margin-right: 200px; */
 }
 
 .scrollee2 .title h2{
   width: 350px;
   position: relative;
-  left: -30%;
+  margin-right: -100px;
   font-size: 2rem;
   text-transform: uppercase;
   z-index: 10;
@@ -113,32 +116,30 @@
 .scrollee2 .title video{
   border-radius: 30px;
   opacity: 0.8;
-  position: absolute;
-  left: 20%;
   filter: drop-shadow(6px 6px 10px red) invert(90%);
   z-index: 1;
+  width: 500px;
 }
 
 .scrollee2 .image{
+  margin-top: -50px;
   display: flex;
-  margin-left: 600px;
-  width: auto;
+  width: 100%;
   align-items: flex-start;
   position: relative;
-  margin-right: 250px;
+  height: 350px;
+  overflow-y: hidden;
+  justify-content: space-around;
 }
 
 .scrollee2 .image img:nth-child(1) {
-  width: 350px;
+  width: 250px;
   height: auto;
-  position: absolute;
   z-index: 2;
-  bottom: -10%;
-  left: -17%;
 }
 
 .scrollee2 .image img:nth-child(2) {
-  width: 800px;
+  width: 450px;
   height: auto;
   position: relative;
   border: 0.2px solid white;
@@ -146,16 +147,24 @@
 }
 
 .scrollee2 .image img:nth-child(3) {
-  width: 500px;
+  width: 300px;
   height: auto;
   position: relative;
   z-index: 1;
-  margin-left: 100px;
-  top: 30%;
 }
 
+.scrollee2 .image img:nth-child(4) {
+  width: 300px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* scroll 3 */
+
 .scrollee3{
-  background-color: #0a361e;
-  width: 100vw;
+  width: 200vw;
   height: 100%;
+  display: flex;
 }
