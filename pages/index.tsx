@@ -9,6 +9,7 @@ import 'aos/dist/aos.css';
 import Header from '../compoments/header';
 import ScrollHorizontal from '../compoments/carouselMe';
 import MyComponent from '../compoments/carouselMe';
+import Mycompetence from './competence';
 
 export default function Home() {
   const [scroll, setscroll] = useState(0);
@@ -24,8 +25,6 @@ export default function Home() {
       setscroll(scrollY)
     })
     
-    console.log(scroll);
-
      // scroll horizontall
      const scrolle = document.querySelector('#scroll')
       
@@ -66,6 +65,8 @@ export default function Home() {
       </section> 
       <MyComponent 
       />
+
+      < Mycompetence/>
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatem eum praesentium et a. Soluta iure error autem. Labore minus ab quae distinctio laboriosam quaerat quisquam pariatur itaque voluptatem sapiente.
         Sint qui aliquam cupiditate dolor aliquid. Magnam, quidem dolorem atque odio ipsam rem at iste optio sint consequatur perspiciatis harum tempore dolor amet veniam, dolorum vel a facilis beatae enim.

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Unbounded:wght@200;400;500;600;800;900&display=swap');
+/* font-family: 'Unbounded', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;400;500&family=Irish+Grover&family=Unbounded:wght@200;400;500;600;800;900&display=swap');
+
+/* font-family: 'Hanken Grotesk', sans-serif; ......................*/
+
+/* ................................ */
+
+.scrollee1{
+  /* background: #e85549; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.scrollee1 h1{
+  font-size: 5rem;
+  font-family: 'Unbounded', cursive;
+  text-transform: uppercase; 
+  line-height: 0.9em; 
+}
+
+.scrollee1 h1:nth-child(1){
+  transform: rotateX(4deg) rotateZ(356deg) rotateY(-46deg);
+  animation: scroll1 2s linear infinite;
+}
+
+.skills{
+  
+}
+
+.hardskills{
+  width: 100%;
+}
+
+.hardskills ul{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hardskills li{
+  list-style: none;
+  margin-bottom: 100px;
+  margin-right: 20px;
+  width: 45%;
+}
+
+
+
+.titrehard {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+.titrehard img{
+  height: 30px;
+  margin-right: 20px;
+}
+
+.titrehard h3{
+  font-size: 1rem;
+}
+.barre{
+  position: relative;
+  width: 100%;
+  height: 15px;
+  background-color: white;
+}
+
+.barre::after{
+  content: '';
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  height: 80%;
+  top: 10.5%;
+  left: 0.2%;
+}
+
+.barre::before{
+  /* content: '80%'; */
+  position: absolute;
+  top: -170%;
+  
+}
+
+.softskills{
+  background-color: red;
+  height: 500px;
+  width: 700px;
+}
