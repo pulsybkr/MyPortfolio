@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import { useRef, useEffect, useState } from 'react';
 import styles from '../styles/Competence.module.css'
@@ -8,12 +9,14 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
 function Mycompetence() {
+  const [visibleSection, setVisibleSection] = useState('section1')
+
+  const [selectedButton, setSelectedButton] = useState("")
   useEffect(()=>{
     // aos animation
     AOS.init();
       
   }, [])
-  const [visibleSection, setVisibleSection] = useState('section1')
   return (
   <>
     <div className={styles.competence}>
@@ -23,9 +26,15 @@ function Mycompetence() {
       </div>
 
       <div className={styles.competencetitle}>
-        <button onClick={() => setVisibleSection('section1')}>Hard Skills</button>
+        <button style={{ backgroundColor: selectedButton === 'button1' ? '#34393E' : 'black'}} onClick={() => {
+          setSelectedButton('button1');
+          setVisibleSection('section1');
+        }}>Hard Skills</button>
 
-        <button onClick={() => setVisibleSection('section2')}>Soft Skills</button>
+        <button style={{ backgroundColor: selectedButton === 'button2' ? '#34393E' : 'black'}} onClick={() => {
+          setSelectedButton('button2');
+          setVisibleSection('section2');
+        }}>Soft Skills</button>
     </div>
 
     <section className={styles.skills}>
@@ -47,6 +56,11 @@ function Mycompetence() {
               pourcent="65"
               lien="/logo/js.png"
               titre="JAVASCRIPT" 
+              />
+              <Lihard
+              pourcent="65"
+              lien="/logo/git.png"
+              titre="GIT" 
               />
               <Lihard
               pourcent="55"
@@ -79,12 +93,39 @@ function Mycompetence() {
               titre="PHOTOSHOP" 
               />
             </ul>
-          </section>
+        </section>
       </div>}
 
       {visibleSection === 'section2' && 
       <div  className={styles.softskills}>
-        Contenu de la section 2
+        <section>
+            <ul>
+              <li data-aos="zoom-in-up">
+              Travail en équipe
+              </li>
+              <li data-aos="zoom-in-up">
+              Communication 
+              </li>
+              <li data-aos="zoom-in-up">
+              Résolution de problèmes
+              </li>
+              <li data-aos="zoom-in-up">
+              Flexibilité 
+              </li>
+              <li data-aos="zoom-in-up">
+              Aptitude à l'apprentissage
+              </li>
+              <li data-aos="zoom-in-up">
+              Créativité 
+              </li>
+              <li data-aos="zoom-in-up">
+              Sens de l'initiative 
+              </li>
+              <li data-aos="zoom-in-up">
+              Autonomie 
+              </li>
+            </ul>
+        </section>
       </div>}
                  
     </section>

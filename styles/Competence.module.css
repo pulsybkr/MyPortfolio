@@ -28,10 +28,24 @@
   animation: scroll1 2s linear infinite;
 }
 
-.skills{
-  
+.competencetitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
 }
-
+.competencetitle button{
+  padding: 15px;
+  width: 40%;
+  border: none;
+  transition: all 0.5s;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.competencetitle button:hover{
+  background-color: #34393E !important;
+}
 .hardskills{
   width: 100%;
 }
@@ -89,8 +103,23 @@
   
 }
 
+/* soft skill ......................................... */
 .softskills{
-  background-color: red;
-  height: 500px;
-  width: 700px;
+  width: 100%;
+}
+
+.softskills ul{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.softskills li{
+  margin-bottom: 50px;
+  margin-right: 20px;
+  width: 45%;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: rgb(24, 24, 24);
 }

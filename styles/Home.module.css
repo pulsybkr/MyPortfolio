@@ -9,6 +9,17 @@
   height:auto;
 }
 
+/* curseur perso */
+.curseur{
+  width: 60px;
+  height: 60px;
+  border:  2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  transition: all 0.001s;
+  z-index: 99999;
+}
 .canvas{
   background: rgb(28,36,51);
   position: fixed !important;

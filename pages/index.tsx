@@ -12,6 +12,11 @@ import MyComponent from '../compoments/carouselMe';
 import Mycompetence from './competence';
 
 export default function Home() {
+  let curseur = useRef()
+
+  const mousePosition = (e: { pageY: number; pageX: number; }) =>{
+    curseur.current.setAttribute('style', `top: ${e.pageY - 20}px; left: ${e.pageX - 20}px;}`)
+  }
   const [scroll, setscroll] = useState(0);
   const [positionHori, setPositionHori] = useState("relative");
 
@@ -34,7 +39,10 @@ export default function Home() {
   return (
    <>
   <div className={styles.scene}>
-    <div className={styles.page}>
+    <div className={styles.page} onMouseMove={mousePosition}>
+      <div ref={curseur} className={styles.curseur}>
+
+      </div>
       <Header />
       <section className={styles.title}>
         <div className='text'>
