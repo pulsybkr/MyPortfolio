@@ -12,13 +12,8 @@ import MyComponent from '../compoments/carouselMe';
 import Mycompetence from './competence';
 
 export default function Home() {
-  let curseur = useRef()
 
-  const mousePosition = (e: { pageY: number; pageX: number; }) =>{
-    curseur.current.setAttribute('style', `top: ${e.pageY - 20}px; left: ${e.pageX - 20}px;}`)
-  }
   const [scroll, setscroll] = useState(0);
-  const [positionHori, setPositionHori] = useState("relative");
 
   useEffect(()=>{
     // aos animation
@@ -29,9 +24,14 @@ export default function Home() {
       const scrollY = window.scrollY / 15;
       setscroll(scrollY)
     })
+
+    let curseur = document.querySelector('#curseur');
+
+  console.log(curseur)
+    document.addEventListener('mousemove', e =>{
+      curseur!.setAttribute('style', `top: ${e.pageY - 20}px; left: ${e.pageX - 20}px;}`)
+    })
     
-     // scroll horizontall
-     const scrolle = document.querySelector('#scroll')
       
   }, [])
   // console.log(scroll)
@@ -39,8 +39,8 @@ export default function Home() {
   return (
    <>
   <div className={styles.scene}>
-    <div className={styles.page} onMouseMove={mousePosition}>
-      <div ref={curseur} className={styles.curseur}>
+    <div className={styles.page}>
+      <div id='curseur' className={styles.curseur}>
 
       </div>
       <Header />
@@ -75,13 +75,7 @@ export default function Home() {
       />
 
       < Mycompetence/>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatem eum praesentium et a. Soluta iure error autem. Labore minus ab quae distinctio laboriosam quaerat quisquam pariatur itaque voluptatem sapiente.
-        Sint qui aliquam cupiditate dolor aliquid. Magnam, quidem dolorem atque odio ipsam rem at iste optio sint consequatur perspiciatis harum tempore dolor amet veniam, dolorum vel a facilis beatae enim.
-        Repudiandae eius est voluptatem aut aliquam! Ipsa ab optio architecto est! Nihil vel id illo impedit deleniti nisi quis dolorum quaerat quod pariatur eveniet nobis voluptate, similique a voluptas harum.
-        Officiis sunt ex praesentium et id nisi autem repudiandae numquam exercitationem vitae, voluptate eligendi! Odio, quisquam optio. Ducimus ipsa, excepturi at ullam velit nemo magni, voluptate facilis eligendi dolores repellat.
-        Temporibus aperiam eaque asperiores, laborum doloremque voluptates animi necessitatibus harum non nulla! Sequi consectetur nihil soluta inventore asperiores cum tempora temporibus quaerat mollitia, quod quidem deleniti in explicabo voluptates incidunt.
-      </div>
+      
     </div>           
   </div>       
    </>
