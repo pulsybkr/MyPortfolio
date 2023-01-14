@@ -11,8 +11,9 @@ import 'aos/dist/aos.css';
 function Mycompetence() {
   const [visibleSection, setVisibleSection] = useState('section1')
 
-  const [selectedButton, setSelectedButton] = useState("")
+  const [selectedButton, setSelectedButton] = useState("button1")
   useEffect(()=>{
+    setSelectedButton("button1")
     // aos animation
     AOS.init();
       
