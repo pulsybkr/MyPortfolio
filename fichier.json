@@ -1,6 +1,6 @@
 [
   {
-  "id": 1,
+  "id": 0,
   "name": "Portfolio 2021",
   "logo": "/projet/portlogo.png",
   "techno": "Figma / HTML / CSS / JavaScript",
@@ -13,20 +13,20 @@
   "categories_id": 1
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "RACO STYLE",
     "logo": "/projet/raco_logo.png",
     "techno": "Figma",
     "description": 
     "J'ai réaliser un projet de maquette de site e-commerce réalisé l'année dernière en utilisant Figma, en respectant les consignes données. Le site est conçu pour être facile à utiliser et à naviguer, avec une interface intuitive et une présentation claire des produits. Le design est moderne et attrayant, intègre des fonctionnalités de recherche, panier d'achat et processus de paiement.",
-    "image": "/projet/raco.png",
+    "image": "/projet/raco.jpg",
     "slide": [
       "hello", "/projet/raco1.jpg", "/projet/raco2.jpg", "/projet/raco3.jpg", "/projet/raco4.jpg"
     ],
     "categories_id": 3
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "VISIT CONGO",
     "logo": "/projet/cglogo.png",
     "techno": "Figma / HTML / CSS / JavaScript",
