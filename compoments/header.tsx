@@ -21,7 +21,7 @@ function Header() {
       </Head>
       <header>
           <div className={styles.logo}>
-            <Link href={'#'}>PULSY</Link>
+            <Link href={'/'}>PULSY</Link>
           </div>
           {/* menu burger */}
           <div className={styles.menu} onMouseOver={()=>{
@@ -46,9 +46,9 @@ function Header() {
 
             </div>
             <ul style={{display: clickMenu ? "none" : "block"}}>
-              <li><Link href={'#aboutme'}>A propos de Moi</Link></li>
-              <li><Link href={'#'}>Mes Projets</Link></li>
-              <li><Link href={'#'}>Me contacter</Link></li>
+              <li><Link href={'/#aboutme'}>A propos de Moi</Link></li>
+              <li><Link href={'/#'}>Mes Projets</Link></li>
+              <li><Link href={'/#'}>Me contacter</Link></li>
             </ul>
 
           </div>

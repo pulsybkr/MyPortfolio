@@ -2,17 +2,23 @@ import { useRef, useEffect, useState } from 'react';
 import styles from '../styles/Scroll.module.css'
 import React, { Component } from 'react'
 import CequejeSaisFaire from './composantde';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 function MyComponent() {
-  
+  useEffect(()=>{
+    // aos animation
+    AOS.init();
+      
+  }, [])
   return (
   <>
     <div className={styles.scrollee} id="scroll">
 
-          <div  className={styles.scrollee1} >
-            <h1>Ce que </h1>
-            <h1>Je sais</h1>
-            <h1>faire !</h1>
+          <div className={styles.scrollee1} >
+            <h1 data-aos="fade-up">Ce que </h1>
+            <h1 data-aos="fade-up">Je sais</h1>
+            <h1 data-aos="fade-up">faire !</h1>
           </div>
 
           <CequejeSaisFaire

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Unbounded:wght@200;400;500;600;800;900&display=swap');
+/* font-family: 'Unbounded', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;400;500&family=Irish+Grover&family=Unbounded:wght@200;400;500;600;800;900&display=swap');
+
+/* font-family: 'Hanken Grotesk', sans-serif; ......................*/
+
+/* ................................ */
+
+.scrollee1{
+  /* background: #e85549; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.scrollee1 h1{
+  font-size: 5rem;
+  font-family: 'Unbounded', cursive;
+  text-transform: uppercase; 
+  line-height: 0.9em; 
+}
+
+.scrollee1 h1:nth-child(1){
+  transform: rotateX(4deg) rotateZ(356deg) rotateY(-46deg);
+  animation: scroll1 2s linear infinite;
+}
+
+/* contenair de project */
+.blocprojet ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  perspective: 1000px;
+}
+.blocprojet ul li{
+  list-style: none;
+  transform: rotateX(4deg) rotateZ(356deg);
+  transform-style: preserve-3d;
+}
+
+.blocprojet ul li:nth-child(2n){
+  margin-top: 100px;
+}
+
+.contenair{
+  width: 400px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 60px;
+}
+
+.contenair img{
+  width: 100%;
+  height: auto;
+  transition: scale 0.3s linear;
+}
+
+.contenair:hover img{
+  scale: 1.2;
+}
+
+.contenair .info{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 50px;
+}
+
+.info h2{
+  font-family: 'Unbounded', cursive;
+  text-transform: uppercase; 
+}
+
+.info p{
+  font-family: 'Hanken Grotesk', sans-serif;
+  text-transform: uppercase; 
+  margin-top: 10px;
+  opacity: 0.7;
+  font-size: 0.8rem;
+}
+.contenair:hover .info{
+  opacity: 1;
+  left: 0;
+}
+
+/* ************** project */
+.sectionprojet{
+  width: 100%;
+}
+
+.sectionprojet header {
+  position: fixed;
+  width: 100%;
+  padding: 25px 50px 0 25px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2000;
+}
+
+.sectionprojet header a{
+  font-family: 'Unbounded', cursive; 
+  font-weight: 700;
+}

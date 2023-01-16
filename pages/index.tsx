@@ -7,12 +7,12 @@ import Link from 'next/link';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Header from '../compoments/header';
-import ScrollHorizontal from '../compoments/carouselMe';
 import MyComponent from '../compoments/carouselMe';
 import Mycompetence from './competence';
+import Myproject from './project';
+
 
 export default function Home() {
-
   const [scroll, setscroll] = useState(0);
 
   useEffect(()=>{
@@ -27,14 +27,13 @@ export default function Home() {
 
     let curseur = document.querySelector('#curseur');
 
-  console.log(curseur)
     document.addEventListener('mousemove', e =>{
-      curseur!.setAttribute('style', `top: ${e.pageY - 20}px; left: ${e.pageX - 20}px;}`)
+      curseur!.setAttribute('style', `top: ${e.pageY - 30}px; left: ${e.pageX - 30}px;}`)
     })
     
       
   }, [])
-  // console.log(scroll)
+  console.log(scroll)
 
   return (
    <>
@@ -76,6 +75,7 @@ export default function Home() {
 
       < Mycompetence/>
       
+      <Myproject/>
     </div>           
   </div>       
    </>

@@ -20,7 +20,7 @@ function CequejeSaisFaire(props: any) {
     })
   }, [])
 
-  console.log(scroll)
+  // console.log(scroll)
   return (
   <>
     <div  className={styles.scrollee2}>
