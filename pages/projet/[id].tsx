@@ -4,7 +4,6 @@ import data from '../../fichier.json'
 import { useRef, useEffect, useState } from 'react';
 import styles from '../../styles/Project.module.css'
 import React, { Component } from 'react'
-import styled from 'styled-components'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useRouter } from 'next/router'
@@ -25,7 +24,7 @@ function Page() {
   const nombr = Number(id)
   const post = data[nombr]
 
-  const slides = data[nombr].slide
+  const slides = post.slide
   console.log(typeof id)
   useEffect(()=>{
     // aos animation
