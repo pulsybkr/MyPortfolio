@@ -29,7 +29,7 @@ export default function Home() {
 
     
   }, [])
-  console.log(scroll)
+  // console.log(scroll)
 
   return (
    <>

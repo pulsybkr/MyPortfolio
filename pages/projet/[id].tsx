@@ -20,12 +20,13 @@ import Souris from '../../compoments/sourisperso';
 
 function Page() {
   const router = useRouter();
-  const { id } = router.query;
+  const id = String(router.query.id)
 
-  const post = data[id]
+  const nombr = Number(id)
+  const post = data[nombr]
 
-  const slides = data[id].slide
-  // console.log(post)
+  const slides = data[nombr].slide
+  console.log(typeof id)
   useEffect(()=>{
     // aos animation
     AOS.init();
