@@ -205,3 +205,29 @@
   margin-top: 50px;
 }
 
+/* *********************media querie */
+@media screen and (max-width: 928px){
+  .aboutme{
+    padding: 125px 75px;
+    /* margin-bottom: 250px; */
+  }
+
+}
+
+@media screen and (max-width: 528px){
+  .scrollee{
+    margin-bottom: 75px;
+  }
+
+  .aboutme h2{
+  font-size: 2rem;
+  }
+
+  .aboutme h3{
+    font-size: 1.7rem;
+    }
+
+  .aboutme{
+    padding: 75px 25px;
+  }
+}

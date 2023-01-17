@@ -183,3 +183,82 @@
   width: 45%;
   text-align: justify;
 }
+
+/* ****************swipper *********** */
+.swiper{
+  width: auto !important;
+}
+.mysiwpe {
+  width: 100%;
+  height: 80vh;
+  /* background-color: #ffffff; */
+  padding: 50px;
+  overflow-y: hidden;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.imgSlide{
+  width: 70vh;
+  margin: 0 30px;
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+}
+
+.voir{
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.voir div{
+  width: 250px;
+  height: 250px;
+  background-color: brown;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* ********************************** media quereis */
+@media screen and (max-width: 1028px){
+  .contenair{
+    width: 350px;
+    height: 450px;
+    margin: 30px;
+  }
+}
+
+@media screen and (max-width: 828px){
+  .scrollee1 h1{
+    font-size: 3rem;
+    font-family: 'Unbounded', cursive;
+    text-transform: uppercase; 
+    line-height: 0.9em; 
+  }
+
+  .scrollee1{
+    height: 70vh;
+  }
+
+  .imgSlide{
+    width: 50vh;
+    margin: 0 15px;
+  }
+
+  .sectionprojet .description div h2{
+    width: 30%;
+  }
+
+  .sectionprojet .description div p{
+    width: 65%;
+  }
+
+  .sectionprojet .titre{
+    height: 60vh;
+  }
+}

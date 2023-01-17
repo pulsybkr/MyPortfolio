@@ -34,7 +34,7 @@ function Header() {
             <div className={styles.menu2} style={{width: hoverMenu ? "30px" : "50px"} }></div>
           </div>
           {/* menu  */}
-          <div className={styles.menuderou} style={{width: clickMenu ? "0vw" : "50vw"}}>
+          <div className={styles.menuderou} style={{width: clickMenu ? "0vw" : "100vw"}}>
 
             <div className={styles.close} onMouseOver={()=>{
               setHoverclose((prevHoverclose) => !prevHoverclose)
@@ -47,8 +47,8 @@ function Header() {
             </div>
             <ul style={{display: clickMenu ? "none" : "block"}}>
               <li><Link href={'/#aboutme'}>A propos de Moi</Link></li>
-              <li><Link href={'/#'}>Mes Projets</Link></li>
-              <li><Link href={'/#'}>Me contacter</Link></li>
+              <li><Link href={'/#projet'}>Mes Projets</Link></li>
+              <li><Link href={'/#contact'}>Me contacter</Link></li>
             </ul>
 
           </div>

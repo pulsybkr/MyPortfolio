@@ -39,12 +39,6 @@ function CequejeSaisFaire(props: any) {
               </div>
 
             </div>
-            {/* <div className={styles.image}  data-aos="fade-up"
-            data-aos-anchor-placement="top-center">
-              <img src={props.imgAbout1} alt="image de presentation de ce que je sais faire" />
-              <img src={props.imgAbout2} alt="image de presentation de ce que je sais faire" />
-              <img src={props.imgAbout3} alt="image de presentation de ce que je sais faire" />
-            </div> */}
           </div>
   </>
   );

@@ -123,3 +123,127 @@
   font-weight: 600;
   background-color: rgb(24, 24, 24);
 }
+
+/* *************************partie contact */
+.bloc{
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.blocleft{
+  width: 45%;
+}
+
+.blocleft h1{
+  font-size: 4rem;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+.blocright{
+  width: 45%;
+}
+
+.blocright img{
+  filter: drop-shadow(6px 6px 10px red) invert(90%);
+  height: 40px;
+}
+
+.blocright .contenaire{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.blocright .contenaire img{
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+.blocright .contenaire h3{
+  font-size: 1.5rem;
+}
+
+.cv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.cv div{
+  display: flex;
+  align-items: center;
+  font-family: 'Hanken Grotesk', sans-serif;
+font-size: 1.3rem;
+}
+
+.cv div h2{
+  margin-left: 20px;
+}
+
+.cv div img{
+  filter: drop-shadow(6px 6px 10px red) invert(90%);
+  height: 60px;
+}
+
+/* *********************media querie */
+@media screen and (max-width: 828px){
+  .scrollee1 h1{
+    font-size: 3rem;
+    font-family: 'Unbounded', cursive;
+    text-transform: uppercase; 
+    line-height: 0.9em; 
+  }
+
+  .scrollee1{
+    height: 60vh; 
+  }
+}
+
+@media screen and (max-width: 528px){
+  .competencetitle {
+    margin: 25px 0;
+  }
+  .competencetitle button{
+    padding: 15px;
+    width: 45%;
+    font-size: 1rem;
+  }
+
+  .hardskills li{
+    margin-bottom: 50px;
+    margin-right: 10px;
+    width: 90%;
+  }
+
+  .softskills li{
+    margin-bottom: 50px;
+    margin-right: 10px;
+    width: 90%;
+    list-style: none;
+  }
+
+  .bloc{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .blocleft{
+    width: 95%;
+    margin-bottom: 50px;
+  }
+  
+  .blocleft h1{
+    font-size: 2rem;
+  }
+  .blocright{
+    width: 95%;
+  }
+}

@@ -20,7 +20,7 @@ const router = useRouter()
 
   return (
   <>
-    <div className={styles.project}>
+    <div id='projet' className={styles.project}>
     <div  className={styles.scrollee1} >
         <h1 data-aos="fade-up" >Mes Projects </h1>
       </div>
@@ -28,7 +28,7 @@ const router = useRouter()
     <section className={styles.blocprojet}>
     <ul>
     {datas.map((data) => (
-      <li key={data.id} style={{transform: `rotateY(${18}deg)`}} onClick={() => router.push(`/projet/${data.id}`)}>
+      <li data-aos="zoom-in" data-aos-duration="3000" key={data.id} style={{transform: `rotateY(${18}deg)`}} onClick={() => router.push(`/projet/${data.id}`)}>
       <div className={styles.contenair}>
         <img src={data.logo} alt="image de presentation du project" />
         <div className={styles.info}>

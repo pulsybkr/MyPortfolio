@@ -1,6 +1,7 @@
 [
   {
   "id": 0,
+  "lien": "https://pulsybkr.github.io/Mon_portofolio/",
   "name": "Portfolio 2021",
   "logo": "/projet/portlogo.png",
   "techno": "Figma / HTML / CSS / JavaScript",
@@ -8,12 +9,13 @@
   "J'ai réalisé mon portfolio de l'année dernière en utilisant Figma pour les maquettes, HTML, CSS et JavaScript pour le développement. Le site était entièrement réactif et adapté à tous les écrans, permettant aux utilisateurs de le consulter facilement sur n'importe quel appareil. Ce projet m'a permis de mettre en pratique mes compétences en design et développement web, et j'étais fier du résultat final. Il m'a également donné l'occasion de continuer à apprendre et à perfectionner mes compétences dans ces domaines.",
   "image": "/projet/portimg.png",
   "slide": [
-    "hello", "/projet/port1.jpg", "/projet/port2.jpg", "/projet/port3.jpg", "/projet/port4.jpg", "/projet/port5.jpg"
+    "/projet/port1.jpg", "/projet/port4.jpg", "/projet/port2.jpg", "/projet/port3.jpg", "/projet/port4.jpg", "/projet/port4.png"
   ],
   "categories_id": 1
   },
   {
     "id": 1,
+    "lien": "#",
     "name": "RACO STYLE",
     "logo": "/projet/raco_logo.png",
     "techno": "Figma",
@@ -27,6 +29,7 @@
   },
   {
     "id": 2,
+    "lien": "https://pulsybkr.github.io/projet-fin-2022/index.html#",
     "name": "VISIT CONGO",
     "logo": "/projet/cglogo.png",
     "techno": "Figma / HTML / CSS / JavaScript",
@@ -34,7 +37,7 @@
     "J'ai réalisé un projet de site vitrine pour une agence de tourisme. J'ai utilisé Figma pour créer les maquettes, HTML pour la structure, CSS pour le style et JavaScript pour les fonctionnalités interactives. Le site respectait les normes en vigueur et était entièrement adaptatif, permettant aux utilisateurs de naviguer facilement sur tous les appareils. Ce projet m'a permis de mettre en pratique mes compétences en design, développement web et programmation JavaScript. J'étais fier du résultat final et j'espère que vous avez apprécié également.",
     "image": "/projet/cgimg.jpg",
     "slide": [
-      "hello", "/projet/cg1.jpg", "/projet/cg2.jpg", "/projet/cg3.jpg", "/projet/cg4.jpg", "/projet/cg5.jpg", "/projet/cg6.jpg"
+      "/projet/cg1.jpg", "/projet/cg2.jpg", "/projet/cg3.jpg", "/projet/cg4.jpg", "/projet/cg5.jpg", "/projet/cg6.jpg"
     ],
     "categories_id": 1
   }

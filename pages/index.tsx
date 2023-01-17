@@ -10,6 +10,8 @@ import Header from '../compoments/header';
 import MyComponent from '../compoments/carouselMe';
 import Mycompetence from './competence';
 import Myproject from './project';
+import Contact from './contact';
+import Souris from '../compoments/sourisperso';
 
 
 export default function Home() {
@@ -25,13 +27,7 @@ export default function Home() {
       setscroll(scrollY)
     })
 
-    let curseur = document.querySelector('#curseur');
-
-    document.addEventListener('mousemove', e =>{
-      curseur!.setAttribute('style', `top: ${e.pageY - 30}px; left: ${e.pageX - 30}px;}`)
-    })
     
-      
   }, [])
   console.log(scroll)
 
@@ -39,9 +35,7 @@ export default function Home() {
    <>
   <div className={styles.scene}>
     <div className={styles.page}>
-      <div id='curseur' className={styles.curseur}>
-
-      </div>
+      <Souris/>
       <Header />
       <section className={styles.title}>
         <div className='text'>
@@ -76,6 +70,8 @@ export default function Home() {
       < Mycompetence/>
       
       <Myproject/>
+
+      <Contact/>
     </div>           
   </div>       
    </>

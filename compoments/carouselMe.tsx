@@ -34,7 +34,7 @@ function MyComponent() {
 
           <CequejeSaisFaire
             logoAbout=""
-            titreAbout="Maquetage de site Web, Conception des Wireframes, des Logos et autres..."
+            titreAbout="Integration, Developpement web Front et Back ..."
             videoAbout="/code.mp4"
             imgAbout1="/design11.png"
             imgAbout2="/design11.png"
