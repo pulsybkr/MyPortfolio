@@ -23,6 +23,7 @@ export default function Home() {
 
     PiwikPro.initialize('b2da65e5-4cfd-47f6-ac5c-934e1bc8551e', 'https://pulsybkr.containers.piwik.pro');
 
+    document.getElementById('root')
     // PiwikPro.trackPageView();
     // scroll
     window.addEventListener('scroll', ()=>{
@@ -36,7 +37,7 @@ export default function Home() {
 
   return (
    <>
-  <div className={styles.scene}>
+  <div id='root' className={styles.scene}>
     <div className={styles.page}>
       <Souris/>
       <Header />
