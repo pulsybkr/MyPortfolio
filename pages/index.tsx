@@ -12,7 +12,7 @@ import Mycompetence from './competence';
 import Myproject from './project';
 import Contact from './contact';
 import Souris from '../compoments/sourisperso';
-
+import PiwikPro from '@piwikpro/react-piwik-pro';
 
 export default function Home() {
   const [scroll, setscroll] = useState(0);
@@ -21,6 +21,9 @@ export default function Home() {
     // aos animation
     AOS.init();
 
+    PiwikPro.initialize('b2da65e5-4cfd-47f6-ac5c-934e1bc8551e', 'https://pulsybkr.containers.piwik.pro');
+
+    // PiwikPro.trackPageView();
     // scroll
     window.addEventListener('scroll', ()=>{
       const scrollY = window.scrollY / 15;
