@@ -23,7 +23,7 @@
     "J'ai réaliser un projet de maquette de site e-commerce réalisé l'année dernière en utilisant Figma, en respectant les consignes données. Le site est conçu pour être facile à utiliser et à naviguer, avec une interface intuitive et une présentation claire des produits. Le design est moderne et attrayant, intègre des fonctionnalités de recherche, panier d'achat et processus de paiement.",
     "image": "/projet/raco.jpg",
     "slide": [
-      "hello", "/projet/raco1.jpg", "/projet/raco2.jpg", "/projet/raco3.jpg", "/projet/raco4.jpg"
+      "/projet/raco1.jpg", "/projet/raco2.jpg", "/projet/raco3.jpg", "/projet/raco4.jpg"
     ],
     "categories_id": 3
   },
