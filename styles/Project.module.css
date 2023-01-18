@@ -261,4 +261,64 @@
   .sectionprojet .titre{
     height: 60vh;
   }
+
+  .sectionprojet .description div{
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionprojet .description div h2{
+    width: 95%;
+    text-align: left;
+  }
+
+  .sectionprojet .description div p{
+    width: 95%;
+  }
+
+  .techno{
+    margin-top: 30px;
+  }
+
+  .imgSlide{
+    width: 90vh;
+  }
+
+  .mysiwpe {
+    height: 70vh;
+    padding: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 528px){
+  .sectionprojet .description{
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 25px;
+  }
+
+  .sectionprojet main{
+    padding: 0 5px;
+  }
+
+  .sectionprojet .bkg{
+    padding: 0 10px;
+  }
+
+  .sectionprojet .titre{
+    height: 40vh;
+  }
+
+  .mysiwpe {
+    height: 100vh;
+    padding: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .imgSlide{
+    width: 80vh;
+    scale: 0.5;
+  }
 }

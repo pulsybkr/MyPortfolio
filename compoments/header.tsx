@@ -46,9 +46,15 @@ function Header() {
 
             </div>
             <ul style={{display: clickMenu ? "none" : "block"}}>
-              <li><Link href={'/#aboutme'}>A propos de Moi</Link></li>
-              <li><Link href={'/#projet'}>Mes Projets</Link></li>
-              <li><Link href={'/#contact'}>Me contacter</Link></li>
+              <li><Link onClick={()=>{
+              setClickMenu((prevClickMenu) => !prevClickMenu)
+            }} href={'/#aboutme'}>A propos de Moi</Link></li>
+              <li><Link onClick={()=>{
+              setClickMenu((prevClickMenu) => !prevClickMenu)
+            }} href={'/#projet'}>Mes Projets</Link></li>
+              <li><Link onClick={()=>{
+              setClickMenu((prevClickMenu) => !prevClickMenu)
+            }} href={'/#contact'}>Me contacter</Link></li>
             </ul>
 
           </div>

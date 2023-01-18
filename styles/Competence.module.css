@@ -33,6 +33,7 @@
   display: flex;
   justify-content: center;
   margin: 100px 0;
+  color: white;
 }
 .competencetitle button{
   padding: 15px;
@@ -42,6 +43,7 @@
   font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: 700;
+  color: white;
 }
 .competencetitle button:hover{
   background-color: #34393E !important;
