@@ -24,7 +24,7 @@ function Page() {
   const nombr = Number(id)
   const post = data[nombr]
 
-  const slides = post.slide
+  // const slides = post.slide
   console.log(typeof id)
   useEffect(()=>{
     // aos animation
@@ -33,7 +33,7 @@ function Page() {
   }, [])
   return(
     <>
-      <section className={styles.sectionprojet}>
+      {/* <section className={styles.sectionprojet}>
         <Header/>
       <Souris/>
 
@@ -56,31 +56,7 @@ function Page() {
 
             
           </div>
-          <div className={styles.mysiwpe}>
-            <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={"auto"}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
-      >
-        {slides.map((image) => (
-        <SwiperSlide key={image} className={styles.swiper}>
-          <img className={styles.imgSlide} src={image} alt="screen du rendu" />
           
-        </SwiperSlide>
-      ))}
-            </Swiper>
-          </div>
           <div className={styles.voir}>
           <Link href={`${post.lien}`} target="_blank"><div>
                 <h2>
@@ -90,7 +66,7 @@ function Page() {
               
           </div>
         </main>
-      </section>
+      </section> */}
     </>
   )
 }
