@@ -15,7 +15,7 @@ function Page({ post }) {
   }, [])
   return(
     <>
-        <h1>{post.title}</h1>
+      <h1>{post.name}</h1>
     </>
   )
 }
