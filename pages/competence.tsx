@@ -93,6 +93,11 @@ function Mycompetence() {
               lien="/logo/ps.png"
               titre="PHOTOSHOP" 
               />
+              <Lihard
+              pourcent="50"
+              lien="/logo/ai.png"
+              titre="ILLUSTRATOR" 
+              />
             </ul>
         </section>
       </div>}

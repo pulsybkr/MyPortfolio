@@ -44,8 +44,10 @@ export default function Home() {
       <section className={styles.title}>
         <div className='text'>
           <h2 style={{transform: `rotateY(${63+scroll}deg)`}}>Pulsy BACKEKOLO</h2>
-          <h2 style={{transform: `rotateY(${58+scroll}deg)`}}>Developpeur Web</h2>
-          <h2 style={{transform: `rotateY(${48+scroll}deg)`}}>Front - End</h2>
+          <h2 style={{transform: `rotateY(${58+scroll}deg)`}}>Designer </h2>
+          <h2 style={{transform: `rotateY(${48+scroll}deg)`}}>Developpeur </h2>
+          <h2 style={{transform: `rotateY(${58+scroll}deg)`}}>Web </h2>
+
         </div>
       </section>    
       <section id='aboutme' className={styles.aboutme}>
@@ -56,11 +58,11 @@ export default function Home() {
           <div>
             <h2 data-aos="fade-up"
               data-aos-anchor-placement="top-center">
-              Hello World ! je m'appelle Pulsy Backekolo, j'ai 20 ans. Je suis passionné par les nouvelles technologies et ça fait déjà deux ans que je code des sites web. Actuellement, je suis en train d'étudier l'informatique et le développement web de manière plus approfondie, en mettant l'accent sur le développement web front-end.
+              Hello World ! je m'appelle Pulsy Backekolo, j'ai 20 ans. Je suis passionné par les nouvelles technologies. Depuis environ quatre ans j'ai commencé à Designer des logos, des illustrations, des affiches... avec les outils de design Photoshop et Illustrator. et il y'a environ deux ans j'ai commencé à coder des sites web.<br/> Actuellement, je suis en année préparatoire chargée de projet informatique à l'<a href="https://etna.io/" target="_blank" rel="noopener noreferrer">ETNA</a>, je prépare un diplome de niveau BAC +2, j'apprend à la fois Developpement Web, le Web design, les bases du developpement mobile... <br/> Ayant deja fais une premiere année de bachelor en Developpement Web j'ai acquis des bonnes bases à la fois en developpement web et design UI/UX.
             </h2>
             <h3 data-aos="fade-up"
               data-aos-duration="3000">
-              En tant que développeur web passionné et créatif, j'aime travailler sur des projets qui me permettent de mettre à profit mes compétences en matière de design et de création de sites web attrayants et fonctionnels.De plus je suis également à la recherche d'une alternance de 9 mois à partir de mars 2023 afin d'apprendre et de développer mes compétences dans un environnement professionnel.
+              En tant que développeur et designer web passionné et créatif, j'aime travailler sur des projets qui me permettent de mettre à profit mes compétences en matière de design et de création de sites web attrayants et fonctionnels. <br/> De plus je suis également à la recherche d'une alternance de 9 mois à partir de mars 2023 afin d'apprendre et de développer mes compétences dans un environnement professionnel.
             </h3>
             <h3 data-aos="fade-up"
               data-aos-duration="3000">

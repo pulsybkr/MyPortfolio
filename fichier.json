@@ -1,6 +1,20 @@
 [
   {
-  "id": 0,
+    "id": 0,
+    "lien": "#",
+    "name": "Mes Designs",
+    "logo": "/projet/delogo.png",
+    "techno": "Figma / Photoshop / Illustrator ",
+    "description": 
+    " Retrouvez ci-dessous mes projets de design que j'ai réalisés au cours des cinq dernières années. Grâce à mes compétences en utilisant Photoshop et Illustrator, j'ai pu mettre en œuvre ma créativité pour produire des designs uniques et professionnels. ",
+    "image": "/projet/de.jpg",
+    "slide": [
+      "/projet/de1.png", "/projet/de2.png", "/projet/de3.png", "/projet/de4.png", "/projet/de5.png", "/projet/de6.png", "/projet/de7.png", "/projet/de8.png", "/projet/de9.png"
+    ],
+    "categories_id": 4
+    },
+  {
+  "id": 3,
   "lien": "https://pulsybkr.github.io/Mon_portofolio/",
   "name": "Portfolio 2021",
   "logo": "/projet/portlogo.png",
@@ -40,5 +54,19 @@
       "/projet/cg1.jpg", "/projet/cg2.jpg", "/projet/cg3.jpg", "/projet/cg4.jpg", "/projet/cg5.jpg", "/projet/cg6.jpg"
     ],
     "categories_id": 1
-  }
+  },
+  {
+    "id": 4,
+    "lien": "https://pulsybkr.github.io/Mon_portofolio/",
+    "name": "Portfolio 2021",
+    "logo": "/projet/portlogo.png",
+    "techno": "Figma / HTML / CSS / JavaScript",
+    "description": 
+    "J'ai réalisé mon portfolio de l'année dernière en utilisant Figma pour les maquettes, HTML, CSS et JavaScript pour le développement. Le site était entièrement réactif et adapté à tous les écrans, permettant aux utilisateurs de le consulter facilement sur n'importe quel appareil. Ce projet m'a permis de mettre en pratique mes compétences en design et développement web, et j'étais fier du résultat final. Il m'a également donné l'occasion de continuer à apprendre et à perfectionner mes compétences dans ces domaines.",
+    "image": "/projet/portimg.png",
+    "slide": [
+      "/projet/port1.jpg", "/projet/port4.jpg", "/projet/port2.jpg", "/projet/port3.jpg", "/projet/port4.jpg", "/projet/port4.png"
+    ],
+    "categories_id": 1
+    }
   ]
