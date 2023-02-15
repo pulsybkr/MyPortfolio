@@ -14,7 +14,7 @@
     "categories_id": 4
     },
   {
-  "id": 3,
+  "id": 1,
   "lien": "https://pulsybkr.github.io/Mon_portofolio/",
   "name": "Portfolio 2021",
   "logo": "/projet/portlogo.png",
@@ -28,7 +28,7 @@
   "categories_id": 1
   },
   {
-    "id": 1,
+    "id": 2,
     "lien": "#",
     "name": "RACO STYLE",
     "logo": "/projet/raco_logo.png",
@@ -42,7 +42,7 @@
     "categories_id": 3
   },
   {
-    "id": 2,
+    "id": 3,
     "lien": "https://pulsybkr.github.io/projet-fin-2022/index.html#",
     "name": "VISIT CONGO",
     "logo": "/projet/cglogo.png",

@@ -76,8 +76,7 @@ function Page({ post }: { post: Post }) {
               >
                 {slides.map((image) => (
                 <SwiperSlide key={image} className={styles.swiper}>
-                  <img className={styles.imgSlide} src={image} alt="screen du rendu" />
-                  
+                  <img className={styles.imgSlide} src={image} alt="screen du rendu" />                  
                 </SwiperSlide>
               ))}
             </Swiper>
