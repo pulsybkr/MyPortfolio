@@ -47,7 +47,7 @@ export default function Home() {
           <h2 style={{transform: `rotateY(${58+scroll}deg)`}}>Designer </h2>
           <h2 style={{transform: `rotateY(${48+scroll}deg)`}}>Developpeur </h2>
           <h2 style={{transform: `rotateY(${58+scroll}deg)`}}>Web </h2>
-
+{/*  */}
         </div>
       </section>    
       <section id='aboutme' className={styles.aboutme}>
