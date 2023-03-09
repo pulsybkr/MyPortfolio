@@ -2,6 +2,34 @@
   {
     "id": 0,
     "lien": "#",
+    "name": "Second Life",
+    "logo": "/projet/sclogo.jpg",
+    "techno": "Next JS / React JS / TypeScript / Node JS / Express JS / Mysql ",
+    "description": 
+    "J'ai eu la chance de travailler sur le développement d'un site de vente de téléphones reconditionnés en utilisant des technologies modernes de développement web telles que React et Next.js pour le front-end, ainsi que Node.js, Express.js et Sequelize pour le back-end avec une base de données MySQL.",
+    "image": "/projet/scimage.png",
+    "slide": [
+      "/projet/sc1.jpg", "/projet/sc2.jpg", "/projet/sc3.jpg", "/projet/sc4.jpg", "/projet/sc5.jpg", "/projet/sc6.jpg"
+    ],
+    "categories_id": 1
+    },
+  {
+  "id": 1,
+  "lien": "https://oeildelune.vercel.app/freezy",
+  "name": "Oeil de lune Music",
+  "logo": "/projet/odllogo.jpg",
+  "techno": "Next Js / Firebase ",
+  "description": 
+  "J'ai créé un site vitrine pour un label de musique en utilisant les technologies Next.js et Firebase. Le site permet de présenter les artistes du label, leurs dernières sorties musicales ainsi que les événements à venir. <br /> Ce projet est toujours en cours ...",
+  "image": "/projet/odlimage.png",
+  "slide": [
+    "/projet/odl1.jpg", "/projet/odl2.jpg", "/projet/odl3.jpg", "/projet/odl4.jpg", "/projet/odl5.jpg"
+  ],
+  "categories_id": 1
+  },
+  {
+    "id": 2,
+    "lien": "#",
     "name": "Mes Designs",
     "logo": "/projet/delogo.png",
     "techno": "Figma / Photoshop / Illustrator ",
@@ -14,7 +42,7 @@
     "categories_id": 4
     },
   {
-  "id": 1,
+  "id": 3,
   "lien": "https://pulsybkr.github.io/Mon_portofolio/",
   "name": "Portfolio 2021",
   "logo": "/projet/portlogo.png",
@@ -23,12 +51,12 @@
   "J'ai réalisé mon portfolio de l'année dernière en utilisant Figma pour les maquettes, HTML, CSS et JavaScript pour le développement. Le site était entièrement réactif et adapté à tous les écrans, permettant aux utilisateurs de le consulter facilement sur n'importe quel appareil. Ce projet m'a permis de mettre en pratique mes compétences en design et développement web, et j'étais fier du résultat final. Il m'a également donné l'occasion de continuer à apprendre et à perfectionner mes compétences dans ces domaines.",
   "image": "/projet/portimg.png",
   "slide": [
-    "/projet/port1.jpg", "/projet/port4.jpg", "/projet/port2.jpg", "/projet/port3.jpg", "/projet/port4.jpg", "/projet/port4.png"
+    "/projet/port1.jpg", "/projet/port4.jpg", "/projet/port2.jpg", "/projet/port3.jpg", "/projet/port4.jpg", "/projet/port5.png"
   ],
   "categories_id": 1
   },
   {
-    "id": 2,
+    "id": 4,
     "lien": "#",
     "name": "RACO STYLE",
     "logo": "/projet/raco_logo.png",
@@ -42,7 +70,7 @@
     "categories_id": 3
   },
   {
-    "id": 3,
+    "id": 5,
     "lien": "https://pulsybkr.github.io/projet-fin-2022/index.html#",
     "name": "VISIT CONGO",
     "logo": "/projet/cglogo.png",
@@ -56,7 +84,7 @@
     "categories_id": 1
   },
   {
-    "id": 4,
+    "id": 6,
     "lien": "https://pulsybkr.github.io/Mon_portofolio/",
     "name": "Portfolio 2021",
     "logo": "/projet/portlogo.png",
