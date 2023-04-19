@@ -58,15 +58,20 @@ export default function Home() {
           <div>
             <h2 data-aos="fade-up"
               data-aos-anchor-placement="top-center">
-              Hello World ! je m'appelle Pulsy Backekolo, j'ai 20 ans. Je suis passionné par les nouvelles technologies. Depuis environ quatre ans j'ai commencé à Designer des logos, des illustrations, des affiches... avec les outils de design Photoshop et Illustrator. et il y'a environ deux ans j'ai commencé à coder des sites web.<br/> Actuellement, je suis en année préparatoire chargée de projet informatique à l'<a href="https://etna.io/" target="_blank" rel="noopener noreferrer">ETNA</a>, je prépare un diplome de niveau BAC +2, j'apprend à la fois Developpement Web, le Web design, les bases du developpement mobile... <br/> Ayant deja fais une premiere année de bachelor en Developpement Web j'ai acquis des bonnes bases à la fois en developpement web et design UI/UX.
+              Salut toi, <br />
+              Je suis Pulsy BACKEKOLO, un développeur et designer web en herbe, toujours à la recherche de nouvelles opportunités pour apprendre et m'améliorer. Je suis actuellement en deuxieme année d'étude en développement web, et j'ai une expérience de plus de trois ans dans les technologies HTML, CSS et JS. Depuis l'année dernière, j'ai également travaillé sur des technologies plus avancées telles que React, Next, Node, Express, React Native et Python.
             </h2>
             <h3 data-aos="fade-up"
               data-aos-duration="3000">
-              En tant que développeur et designer web passionné et créatif, j'aime travailler sur des projets qui me permettent de mettre à profit mes compétences en matière de design et de création de sites web attrayants et fonctionnels. <br/> De plus je suis également à la recherche d'une alternance de 9 mois à partir de mars 2023 afin d'apprendre et de développer mes compétences dans un environnement professionnel.
+              Je suis une personne créative, motivée et qui apprend vite. J'ai une passion pour les nouvelles technologies et je suis toujours à la recherche de nouvelles compétences à acquérir. Mon objectif est de créer des expériences utilisateur exceptionnelles qui permettent aux utilisateurs de naviguer sur le web en toute simplicité et efficacité.
+
             </h3>
             <h3 data-aos="fade-up"
               data-aos-duration="3000">
-              Si vous êtes à la recherche d'un développeur web motivé et souhaitant apprendre et progresser, n'hésitez pas à me contacter. Je suis impatient de travailler avec vous et de mettre mes compétences au service de vos projets.
+              Actuellement à la recherche d'un stage de six mois ou d'une alternance d'un an, je suis prêt à mettre mes compétences à votre disposition. Si vous cherchez un développeur et designer web motivé et passionné, n'hésitez pas à me contacter ! <br />
+
+
+              Merci d'avoir pris le temps de lire ma présentation. N'hésitez pas à parcourir mon portfolio pour en savoir plus sur mes projets et compétences. À bientôt !
             </h3>
           </div>
       </section> 

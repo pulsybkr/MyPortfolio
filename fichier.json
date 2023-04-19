@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "lien": "#",
+    "lien": "https://github.com/pulsybkr/SecondLife---E-commerce",
     "name": "Second Life",
     "logo": "/projet/sclogo.jpg",
     "techno": "Next JS / React JS / TypeScript / Node JS / Express JS / Mysql ",
@@ -82,19 +82,5 @@
       "/projet/cg1.jpg", "/projet/cg2.jpg", "/projet/cg3.jpg", "/projet/cg4.jpg", "/projet/cg5.jpg", "/projet/cg6.jpg"
     ],
     "categories_id": 1
-  },
-  {
-    "id": 6,
-    "lien": "https://pulsybkr.github.io/Mon_portofolio/",
-    "name": "Portfolio 2021",
-    "logo": "/projet/portlogo.png",
-    "techno": "Figma / HTML / CSS / JavaScript",
-    "description": 
-    "J'ai réalisé mon portfolio de l'année dernière en utilisant Figma pour les maquettes, HTML, CSS et JavaScript pour le développement. Le site était entièrement réactif et adapté à tous les écrans, permettant aux utilisateurs de le consulter facilement sur n'importe quel appareil. Ce projet m'a permis de mettre en pratique mes compétences en design et développement web, et j'étais fier du résultat final. Il m'a également donné l'occasion de continuer à apprendre et à perfectionner mes compétences dans ces domaines.",
-    "image": "/projet/portimg.png",
-    "slide": [
-      "/projet/port1.jpg", "/projet/port4.jpg", "/projet/port2.jpg", "/projet/port3.jpg", "/projet/port4.jpg", "/projet/port4.png"
-    ],
-    "categories_id": 1
-    }
+  }
   ]
