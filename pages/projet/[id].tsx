@@ -16,6 +16,17 @@ import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Virtual } from "swiper";
 import Souris from '../../compoments/sourisperso';
 
+interface Post {
+  textLink: string,
+  link: boolean,
+  name: string,
+  image: string,
+  lien: string,
+  description: string,
+  techno: string,
+  id: number,
+  slide: string[]
+}
 
 
 function Page({ post }: { post: Post }) {
