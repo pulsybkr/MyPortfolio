@@ -21,15 +21,6 @@ function MyComponent() {
             <h1 data-aos="fade-up">faire !</h1>
           </div>
 
-          <CequejeSaisFaire
-            logoAbout=""
-            titreAbout="Maquetage de site Web, Conception des Wireframes, des Logos et autres..."
-            videoAbout="/design.mp4"
-            imgAbout1="/design11.png"
-            imgAbout2="/design11.png"
-            imgAbout3="/design11.png"
-          />
-          
           {/* dev */}
 
           <CequejeSaisFaire
@@ -41,6 +32,15 @@ function MyComponent() {
             imgAbout3="/design11.png"
           />
 
+          <CequejeSaisFaire
+            logoAbout=""
+            titreAbout="Maquetage de site Web, Conception des Wireframes, des Logos et autres..."
+            videoAbout="/design.mp4"
+            imgAbout1="/design11.png"
+            imgAbout2="/design11.png"
+            imgAbout3="/design11.png"
+          />
+          
     </div>
 
   </>

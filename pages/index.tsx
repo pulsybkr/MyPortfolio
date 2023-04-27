@@ -12,7 +12,7 @@ import Mycompetence from './competence';
 import Myproject from './project';
 import Contact from './contact';
 import Souris from '../compoments/sourisperso';
-import PiwikPro from '@piwikpro/react-piwik-pro';
+// import PiwikPro from '@piwikpro/react-piwik-pro';
 
 export default function Home() {
   const [scroll, setscroll] = useState(0);
@@ -21,7 +21,7 @@ export default function Home() {
     // aos animation
     AOS.init();
 
-    PiwikPro.initialize('b2da65e5-4cfd-47f6-ac5c-934e1bc8551e', 'https://pulsybkr.containers.piwik.pro');
+    // PiwikPro.initialize('b2da65e5-4cfd-47f6-ac5c-934e1bc8551e', 'https://pulsybkr.containers.piwik.pro');
 
     document.getElementById('root')
     // PiwikPro.trackPageView();
@@ -68,8 +68,7 @@ export default function Home() {
             </h3>
             <h3 data-aos="fade-up"
               data-aos-duration="3000">
-              Actuellement à la recherche d'un stage de six mois ou d'une alternance d'un an, je suis prêt à mettre mes compétences à votre disposition. Si vous cherchez un développeur et designer web motivé et passionné, n'hésitez pas à me contacter ! <br />
-
+              Actuellement à la recherche d'une alternance, je suis prêt à mettre mes compétences à votre disposition. Si vous cherchez un développeur et designer web motivé et passionné, n'hésitez pas à me contacter ! <br />
 
               Merci d'avoir pris le temps de lire ma présentation. N'hésitez pas à parcourir mon portfolio pour en savoir plus sur mes projets et compétences. À bientôt !
             </h3>

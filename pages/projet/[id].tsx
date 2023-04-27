@@ -16,23 +16,19 @@ import "swiper/css/pagination";
 import { EffectCoverflow, Pagination, Virtual } from "swiper";
 import Souris from '../../compoments/sourisperso';
 
-interface Post {
-  name: string,
-  image: string,
-  lien: string,
-  description: string,
-  techno: string,
-  id: number,
-  slide: string[]
-}
 
 
 function Page({ post }: { post: Post }) {
   const router = useRouter();
+  const [disp, setDisp] = useState("flex");
   const slides = post.slide
   useEffect(()=>{
     AOS.init(); // initialize AOS animation
-  }, [])
+    if(post.link !== true){
+      setDisp("none")
+    }
+  }, [post.link])
+
   return(
     <>
       <section className={styles.sectionprojet}>
@@ -81,14 +77,14 @@ function Page({ post }: { post: Post }) {
               ))}
             </Swiper>
           </div>
-          
-          <div className={styles.voir}>
+
+          <div style={{display: disp}} className={styles.voir}>
           <Link href={`${post.lien}`} target="_blank"><div>
                 <h2>
-                  Voir en Direct
+                  {post.textLink}
                 </h2>
               </div></Link>
-              
+
           </div>
         </main>
       </section>

@@ -67,12 +67,12 @@ function Contact() {
         </div>
       </section>
 
-      {/* <div data-aos="fade-up" className={styles.cv}>
+      <div data-aos="fade-up" className={styles.cv}>
             <div>
               <Link href="/cv.pdf" download="Cv de Pulsy BACKEKOLO" target="_blank"><img src="/logo/cv.png" alt="" /></Link>
               <h2>Telecharger mon CV</h2>
             </div>
-      </div> */}
+      </div>
   </div>
 
   </>
