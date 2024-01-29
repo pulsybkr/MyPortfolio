@@ -58,7 +58,9 @@ export default function Home() {
           <div>
             <h2 data-aos="fade-up"
               data-aos-anchor-placement="top-center">
-              Salut toi, <br />
+              
+              Salut toi,<br />
+              Avant de commencer je tiens à souligner que j'ai pas mis a jour mes projets depuis environ 11 mois, et je travaille actuellement sur mon nouveau portfolio. <br />
               Je suis Pulsy BACKEKOLO, un développeur et designer web en herbe, toujours à la recherche de nouvelles opportunités pour apprendre et m'améliorer. Je suis actuellement en deuxieme année d'étude en développement web, et j'ai une expérience de plus de trois ans dans les technologies HTML, CSS et JS. Depuis l'année dernière, j'ai également travaillé sur des technologies plus avancées telles que React, Next, Node, Express, React Native et Python.
             </h2>
             <h3 data-aos="fade-up"
