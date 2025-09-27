@@ -228,9 +228,7 @@ export default function Contact() {
               <li className="text-sky-500 underline mb-4">
                 <a href="mailto:pulsycaleb@gmail.com">pulsycaleb@gmail.com</a>
               </li>
-              <li className="text-sky-500 underline">
-                <a href="tel:+336691684710">+33 6 69 16 84 71</a>
-              </li>
+              
             </ul>
           </div>
           <div>
